@@ -1,0 +1,58 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	background-color: deeppink;
+	font-family: 'Inter', sans-serif;
+	font-size: 16pt;
+	font-size: 1.2rem;
+	line-height: 1.4;
+}
+
+header {
+	height: 60vh;
+	background-color: white;
+	margin-top: 20vh;
+	margin-bottom: 20vh;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: deeppink;
+}
+
+a:hover {
+	color: black;
+}
+
+h1 {
+	font-size: 1.7rem;
+	font-weight: 200;
+	text-align: center;
+	padding-top: 10vh;
+}
+
+h2 {
+	font-size: 1rem;
+	font-weight: 300;
+	color: black;
+	text-align: center;
+}
+
+
+
+img {
+	width: 100%;
+	height: auto;
+}
